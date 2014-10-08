@@ -1,6 +1,6 @@
 {
   "name": "tmuxos",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "The awesome power of command line is finally revealed.",
   "main": "start",
   "scripts": {
