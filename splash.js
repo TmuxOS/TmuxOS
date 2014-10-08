@@ -13,7 +13,7 @@ var ImageToAscii = require("image-to-ascii")
     })
   ;
 
-myImage.convert("../resources/splash/tmuxos.png", function(err, converted) {
+myImage.convert(__dirname + "/../resources/splash/tmuxos.png", function(err, converted) {
     if (err) { throw err; }
     console.log(Overlap({
         who: Overlap({
