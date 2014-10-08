@@ -7,7 +7,7 @@ echo "  |____||__|_|  /____//__/\\_ \\ \\_______  /_______  /"
 echo "              \\/            \\/         \\/        \\/ "
 echo "  Developed with JavaScript and ♥ by Ionică Bizău"
 
-TMUXOS_ROOT="/home/$USER/.tmux"
+TMUXOS_ROOT="/home/$USER/.tmuxos"
 TMUXOS_CORE_GIT="https://github.com/TmuxOS/TmuxOS.git"
 TMUXOS_RESOURCES="https://github.com/TmuxOS/Resources.git"
 
@@ -29,10 +29,9 @@ fi
 mkdir -p $TMUXOS_ROOT
 
 # Download files
-cd $TMUXOS_ROOT
-git clone $TMUXOS_CORE_GIT .
-git clone $TMUXOS_RESOURCES ./_resources
-cp _resources/splash/tmuxos.png ./
+git clone $TMUXOS_CORE_GIT $TMUXOS_ROOT
+git clone $TMUXOS_RESOURCES $TMUXOS_ROOT/_resources
+cp $TMUXOS_ROOT/_resources/splash/tmuxos.png $TMUXOS_ROOT
 
 echo "Install complete."
 
