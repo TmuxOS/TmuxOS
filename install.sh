@@ -32,10 +32,11 @@ mkdir -p $TMUXOS_ROOT
 git clone $TMUXOS_CORE_GIT $TMUXOS_ROOT
 git clone $TMUXOS_RESOURCES $TMUXOS_ROOT/_resources
 cp $TMUXOS_ROOT/_resources/splash/tmuxos.png $TMUXOS_ROOT
+cd $TMUXOS_ROOT && npm update
 
 echo "Install complete."
 
-read -p "Do you want to start tmuxos now?" -n 1 -r
+read -p "Do you want to start tmuxos now?"
 if [[ $REPLY =~ ^[Yy]$ ]]
 then
     tmuxos
