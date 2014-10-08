@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=TmuxOS
+Comment=This session will start TmuxOS
+Exec=tmuxos
+Type=Application
