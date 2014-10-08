@@ -12,5 +12,16 @@
     "image-to-ascii": "^0.1.1",
     "overlap": "^0.1.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TmuxOS/TmuxOS.git"
+  },
+  "keywords": [
+    "tmuxos"
+  ],
+  "bugs": {
+    "url": "https://github.com/TmuxOS/TmuxOS/issues"
+  },
+  "homepage": "https://github.com/TmuxOS/TmuxOS"
 }
