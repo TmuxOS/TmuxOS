@@ -6,7 +6,7 @@ var ImageToAscii = require("image-to-ascii")
   , myImage = new ImageToAscii ({
         resize: {
             width:  "100%"
-          , height: "50%"
+          , height: "90%"
         }
       , multiplyWidth: 1
       , colored: true
