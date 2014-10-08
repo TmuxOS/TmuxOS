@@ -20,7 +20,7 @@ sudo cp ./usr/share/xsessions/tmuxos.desktop /usr/share/xsessions/
 
 # Executable file
 echo "> Copying executable file ..."
-sudo cp ./usr/bin/vimos /usr/bin
+sudo cp ./usr/bin/tmuxos /usr/bin
 
 # Init root
 if [ -d "$TMUXOS_ROOT" ]; then
