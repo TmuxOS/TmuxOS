@@ -1,4 +1,4 @@
-const DESCRIPTION = "The awesome power of command line is finally releaved.";
+const DESCRIPTION = "The awesome power of command line is finally revealed.";
 const COPYRIGHT = "Developed with JavaScript and ♥ by Ionică Bizău";
 
 var ImageToAscii = require("image-to-ascii")
