@@ -1,0 +1,11 @@
+{
+  "name": "tmuxos",
+  "version": "1.0.0",
+  "description": "The awesome power of command line is finally releaved.",
+  "main": "start",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net/)",
+  "license": "MIT"
+}
