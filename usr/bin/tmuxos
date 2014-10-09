@@ -1,2 +1,3 @@
 #/bin/bash
-~/.tmuxos/start.sh
+x-window-manager &
+gnome-terminal --hide-menubar --window --full-screen -t "TmuxOS" -x "/home/$USER/.tmuxos/start.sh"
