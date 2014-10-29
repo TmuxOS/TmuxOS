@@ -1,13 +1,15 @@
 # TmuxOS
 The awesome power of command line is finally revealed.
 
+## Screenshot
+
+![Welcome Screen](https://raw.githubusercontent.com/TmuxOS/Resources/master/screenshots/welcome.png)
+
 ## Installation
-Run the following commands to download and install the application:
+Run the following command to install TmuxOS:
 
 ```sh
-$ git clone https://github.com/TmuxOS/TmuxOS.git tmuxos
-$ cd tmuxos
-$ npm install
+$ sudo npm install tmuxos -g  --unsafe-perm
 ```
 
 ## How to contribute
